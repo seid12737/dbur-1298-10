@@ -1,0 +1,22 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class AdminModel extends Model
+{
+  
+    use HasFactory;
+    protected $table='admin';
+    protected $fillable=['FName','LName','Email','Sex','Age','Address'];  
+
+}
+
+
+
+  
+
+  
+
