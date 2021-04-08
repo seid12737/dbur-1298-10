@@ -31,7 +31,7 @@ class AdminController extends Controller
 
     public function showbyid($id)
     {
-        $car=AdminModel::find($id);
+        $admin=AdminModel::find($id);
         return response()->json($admin);
     }
     //to delete
